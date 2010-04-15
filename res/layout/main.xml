@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FrameLayout
+		xmlns:android="http://schemas.android.com/apk/res/android"
+         android:id="@+id/timetable" android:layout_height="420dp" android:layout_width="320dp" android:background="#447a88">
+ 
+	
+	
+
+
+
+<ViewFlipper android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_gravity="bottom" android:id="@+id/Flippcon">
+<FrameLayout android:layout_width="fill_parent" android:layout_gravity="top" android:id="@+id/tracks" android:layout_height="fill_parent" android:minHeight="420dp"><Button android:id="@+id/tr1" android:layout_height="wrap_content" android:layout_marginBottom="270dp" android:layout_gravity="top" android:text="Welcome to Drupal" android:layout_width="fill_parent" android:layout_marginTop="80dp"></Button><Button android:layout_height="wrap_content" android:id="@+id/tr2" android:layout_marginBottom="240dp" android:layout_gravity="top" android:text="Design, Theme, and Usability" android:layout_width="fill_parent" android:layout_marginTop="135dip"></Button><Button android:layout_height="wrap_content" android:id="@+id/tr3" android:layout_marginBottom="210dp" android:layout_gravity="top" android:text="Under the Hood" android:layout_width="fill_parent" android:layout_marginTop="190dip"></Button><Button android:layout_height="wrap_content" android:id="@+id/tr4" android:layout_marginBottom="180dp" android:layout_gravity="top" android:text="Configuration, Set-up and Administration" android:layout_width="fill_parent" android:layout_marginTop="245dip"></Button><Button android:layout_height="wrap_content" android:id="@+id/tr5" android:layout_marginBottom="150dp" android:layout_gravity="top" android:text="Providing Professional Drupal Services" android:layout_width="fill_parent" android:layout_marginTop="300dip"></Button><Button android:layout_height="wrap_content" android:id="@+id/tr6" android:layout_marginBottom="120dp" android:layout_gravity="top" android:text="Leveraging Drupal for your business" android:layout_width="fill_parent" android:layout_marginTop="355dip"></Button>
+
+
+<ImageView android:id="@+id/banner" android:src="@drawable/banner" android:layout_gravity="top" android:layout_height="fill_parent" android:layout_width="wrap_content"></ImageView>
+</FrameLayout><ViewFlipper android:layout_height="wrap_content" android:layout_gravity="top" android:id="@+id/track1Flipp" android:layout_width="320dp"><FrameLayout android:id="@+id/track1" android:layout_gravity="top" android:layout_height="fill_parent" android:layout_width="fill_parent" android:minHeight="420dp"><Button android:layout_height="wrap_content" android:text="Monday" android:width="320dp" android:layout_gravity="top" android:id="@+id/t1B1" android:layout_width="320dp" android:layout_marginTop="45dp"></Button><Button android:layout_height="wrap_content" android:width="320dp" android:text="Tuesday" android:layout_gravity="top" android:id="@+id/t1B2" android:layout_width="320dp" android:layout_marginTop="90dp"></Button><Button android:layout_height="wrap_content" android:text="Wedensday" android:width="320dp" android:layout_gravity="top" android:id="@+id/t1B3" android:layout_width="320dp" android:layout_marginTop="135dp"></Button>
+<Button android:layout_height="wrap_content" android:id="@+id/Backtracks" android:layout_gravity="top" android:width="320dp" android:layout_width="320dp" android:layout_marginTop="0dp" android:text="Back to tracks menu."></Button>
+</FrameLayout>
+<ScrollView android:layout_height="wrap_content" android:layout_gravity="top" android:id="@+id/thedeadseaScrols" android:layout_width="fill_parent"><FrameLayout android:id="@+id/sessions1" android:layout_gravity="top" android:isScrollContainer="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="500dp"><Button android:layout_height="wrap_content" android:maxWidth="320dp" android:text="Back to the day menu." android:layout_gravity="top" android:layout_width="320dp" android:layout_marginTop="0dp" android:id="@+id/backButton1"></Button><ScrollView android:layout_gravity="top" android:id="@+id/Textscrollcon" android:layout_height="wrap_content" android:layout_width="fill_parent"><FrameLayout android:id="@+id/teleText" android:layout_gravity="top" android:layout_width="fill_parent" android:isScrollContainer="true" android:minHeight="60dp" android:layout_height="wrap_content"><TextView android:layout_gravity="top" android:layout_height="wrap_content" android:layout_width="135dp" android:id="@+id/PresentersPerfect"></TextView><TextView android:layout_gravity="top" android:layout_height="wrap_content" android:layout_width="180dp" android:layout_marginLeft="140dp" android:id="@+id/DescriptionTank"></TextView></FrameLayout></ScrollView>
+
+
+</FrameLayout></ScrollView>
+
+</ViewFlipper>
+
+
+
+
+</ViewFlipper>
+
+</FrameLayout>

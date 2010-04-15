@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">drupalconschedule</string>
+    <string name="hello">Hello scheduler</string>
+    <string name="json_url">http://presspectiva.forest.linnovate.net/services/json</string>
+</resources>

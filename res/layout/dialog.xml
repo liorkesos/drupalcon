@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FrameLayout 
+	 android:layout_width="fill_parent" 
+	 xmlns:android="http://schemas.android.com/apk/res/android"
+	 android:keepScreenOn="true" 
+	 android:id="@+id/Dlog" android:focusableInTouchMode="true" android:focusable="true" android:layout_gravity="top" android:gravity="top" android:background="@drawable/back" android:layout_height="fill_parent">
+			
+	
+
+
+
+
+
+</FrameLayout>

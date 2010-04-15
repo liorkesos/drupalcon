@@ -1,0 +1,8 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <item android:visible="true" android:title="Data output" android:id="@+id/data" android:icon="@android:drawable/ic_menu_info_details"></item>
+
+
+<item android:title="Next" android:visible="true" android:id="@+id/next" android:icon="@android:drawable/ic_menu_directions"></item><item android:id="@+id/raisebutton" android:enabled="true" android:icon="@drawable/raise"></item>
+<item android:id="@+id/quit" android:title="Quit" android:icon="@android:drawable/ic_menu_close_clear_cancel" android:visible="true"></item><item android:id="@+id/checkbutton" android:enabled="true" android:icon="@drawable/check"></item>
+</menu>
